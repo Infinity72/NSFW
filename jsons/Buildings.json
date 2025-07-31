@@ -1,25 +1,106 @@
 [
+	//Ancient era
 	{
-		"name": "Holodeck",
-		"replaces": "Circus Maximus",
-		"uniqueTo": "Aliens",
-		"cost": 480,
-		"happiness": 12,
-		"culture": 12,
-		"science": 12,
-		"maintenance": 96,
-		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Horseback Riding"
+		"name": "Rue des plaisirs",
+		"cost": 50, 
+		"happiness": 1,
+		"uniques": ["Obsolete with [Guild]"],
+		"requiredTech": "Trapping"
+		 
+	},
+	//Medieval era
+	{
+		"name": "Maison close",
+		"cost": 100, 
+		"happiness": 2,
+		"uniques": ["[+1 happiness] per every [1] [luxury]"],
+		"requiredTech": "Guilds"
 	},
 	{
-		"name": "Breeders",
-		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
-		"cost": 80,
-		"hurryCostModifier": 160,
-		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
-		"requiredTech": "Engineering"
-	}
+		"name": "Marché aux esclaves",
+		"cost": 100, 
+		"gold": 1, 
+		"uniques": ["[+10]% [Gold] from Trade Routes", "[+10]% [Production] from Trade Routes"]
+		"requiredBuilding": "Market",
+		"requiredTech": "Currency"
+	},
+
+	//Renaissance era
+
+	{
+		"name": "Salon Libertin",
+		"cost": 120,
+		"uniques": ["[+1 Culture] from every specialist [in this city]"],
+		"requiredTech": "Acoustics",
+	},
+	{
+		"name": "Bibliothèque des Plaisirs",
+		"cost": 120,
+		"science": 3,
+		"culture": 1, 
+		"isWonder": true,
+		"uniques": ["[+1 science] from every [Maison close]"],
+		"requiredBuilding": "Library",
+		"requiredTech": "Printing Press", 
+	},
+	
+	//Industrial era
+	
+	{
+		"name": "Cabaret",
+		"happiness": 1,
+		"cost": 150,
+		"greatPersonPoints": {"Great Artist": 1},
+		"requiredTech": "Acoustics",
+	},
+	{
+		"name": "Moulin Rouge",
+		"cost": 160,
+		"happiness": 3,
+		"culture": 1,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Artist": 1},
+		"uniques": ["[+20]% Great Artist generation [for all Cabaret]"],
+		"requiredBuilding": "Cabaret",
+		"quote": "'La pudeur n'est le plus souvent qu'une question d'éclairage.' - Pierre-Jean Vaillard"
+	},
+
+	//Moderne era
+
+	{
+		"name": "Studio de film X",
+		"Culture": 5,
+		"cost": 200,
+		"greatPersonPoints": {"Great Star": 2},
+		"requiredTech": "Radio",
+	},
+	{
+		"name": "Sex shop",
+		"Gold": 2,
+		"happiness": 1, 
+		"cost": 200,
+		"requiredTech": "Plastics",
+	},
+	{
+		"name": "Bureau des plaisirs",
+		"cost": 250,
+		"unique": ["Free [Courtisane] appears"]
+		"requiredTech": "Replaceable Parts",
+	},
+
+	//Atomic era
+
+	{
+		"name": "Site pornographique",
+		"Culture": 7,
+		"cost": 300,
+		"greatPersonPoints": {"Great Star": 3},
+		"requiredTech": "Computers",
+	},
+	{
+		"name": "Bureau des plaisirs",
+		"cost": 250,
+		"unique": ["Free [Courtisane] appears"]
+		"requiredTech": "Replaceable Parts",
+	},
 ]
