@@ -85,6 +85,18 @@
 	},
 
 //médiéval
+
+{
+		"name": "Charmeur mortel",
+		"unitType": "Sword",
+		"movement": 4,
+		"strength": 10,
+		"cost": 120,
+		"requiredTech": "Steel"
+		"requiredResource": "Iron","Silk"
+		"attackSound": "metalhit"
+	},
+
 //renaissance
 //industrial 
 {
