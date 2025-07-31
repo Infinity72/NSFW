@@ -1,17 +1,24 @@
 [
 	{
-		"name": "Phasers",
-		"unitType": "Ranged",
-		"uniqueTo": "Aliens",
-		"replaces": "Machine Gun",
+		"name": "",
+		"unitType": "",
 		"movement": 2,
 		"strength": 90,
-		"rangedStrength": 36,
-		"range": 2,
 		"cost": 500,
-		"requiredTech": "Ballistics",
-		"requiredResource": "Uranium",
+		"requiredTech": "",
+		"requiredResource": "",
 		"promotions": ["Logistics","Accuracy I"],
-		"attackSound": "phasers"
-	}
+		"attackSound": ""
+	}, 
+	{
+		"name": "Great Artist",
+		"unitType": "Civilian",
+		"uniques": [
+            " Can generate a large amount of culture <by consuming this unit>",
+            " Resting point for Influence with City-States is increased by [10]<by consuming this unit>", 
+            "May enter foreign tiles without open borders",
+	    "Is part of Great Person group [Great Person]",
+            "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
 ]
