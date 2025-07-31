@@ -3,14 +3,14 @@
 		"name": "Courtisane",
 		"unitType": "Civilian",
 		"movement": 3,
-		"cost": 300,
-		"requiredTech": "",
-		"requiredResource": "",
-		"uniques": ["May enter foreign tiles without open borders","Unbuildable","[+10] Influence<by consuming this unit>","Can see invisible [Land] units"],
-		"promotions": ["Logistics","Accuracy I"],
+		"uniques": ["May enter foreign tiles without open borders",
+			"Unbuildable",
+			"[+10] Influence <by consuming this unit>",
+			"Can see invisible [Land] units"
+			],
 	}, 
 	{
-		"name": "Great Artist",
+		"name": "Great Star",
 		"unitType": "Civilian",
 		"uniques": [
             " Can generate a large amount of culture <by consuming this unit>",
