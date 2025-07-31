@@ -79,7 +79,7 @@
 		"cost": 56,
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
-		"upgradesTo": "Pikeman",
+		"upgradesTo": "Princesse sucube",
 		"uniques": ["[+20]% Strength <vs [Sword] units>","Only available <after build [Rue des plaisirs]>"],
 		"attackSound": "metalhit"
 	},
@@ -104,6 +104,19 @@
 	},
 
 //renaissance
+
+{
+		"name": "Princesse sucube",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 25,
+		"cost": 185,
+		"requiredTech": "Metallurgy",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","Never appears as a Barbarian unit", "["[+20]% Strength <vs [Sword] units>","Only available <after build [Maison close]>"],
+		"attackSound": "horse"
+	},
+
 //industrial 
 {
 		"name": "Garde du corp",
