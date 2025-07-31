@@ -84,7 +84,7 @@
 	{
 		"name": "Bureau des plaisirs",
 		"cost": 250,
-		"unique": ["Free [Courtisane] appears"]
+		"unique": ["[3] Free [Courtisane] appears"]
 		"requiredTech": "Replaceable Parts",
 	},
 
