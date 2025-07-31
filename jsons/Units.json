@@ -70,6 +70,20 @@
 //military 
 
 //antique
+
+{
+		"name": "Sucube",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 11,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+20]% Strength <vs [Sword] units>","Only available <after build [Rue des plaisirs]>"],
+		"attackSound": "metalhit"
+	},
+
 //médiéval
 //renaissance
 //industrial 
