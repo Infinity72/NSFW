@@ -7,7 +7,7 @@
 			"Unbuildable",
 			"Can see invisible [Land] units",
 			"Cannot be captured; returns to Capital if defeated",
-			"Can upgrade to [Courtisane politique]",
+			"Can upgrade to [Courtisane politique,Courtisane voleuse,Courtisane militaire]",
 			],
 	}, 
 	{
