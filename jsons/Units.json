@@ -94,6 +94,12 @@
 		"cost": 120,
 		"requiredTech": "Steel"
 		"requiredResource": "Iron","Silk"
+"unique": [
+"Enemy City loses 1 Influence <if this unit kills a Civilian within 2 tiles",
+    "Deals bonus damage to Civilian units",
+"Ignores Zone of Control",
+"Invisible to others"
+],
 		"attackSound": "metalhit"
 	},
 
@@ -109,7 +115,8 @@
 		"unique": [
 "+20% Combat Strength when adjacent to Great People",
 "+1 Movement on Roads",
-"May enter foreign tiles without open borders"]
+"May enter foreign tiles without open borders"
+],
 		"attackSound": "shot"
 	},
 
