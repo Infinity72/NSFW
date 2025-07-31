@@ -1,14 +1,13 @@
 [
 	{
-		"name": "",
-		"unitType": "",
-		"movement": 2,
-		"strength": 90,
-		"cost": 500,
+		"name": "Courtisane",
+		"unitType": "Civilian",
+		"movement": 3,
+		"cost": 300,
 		"requiredTech": "",
 		"requiredResource": "",
+		"uniques": ["May enter foreign tiles without open borders","Unbuildable","[+10] Influence<by consuming this unit>","Can see invisible [Land] units"],
 		"promotions": ["Logistics","Accuracy I"],
-		"attackSound": ""
 	}, 
 	{
 		"name": "Great Artist",
