@@ -1,4 +1,7 @@
 [
+
+//Courtisane 
+
 	{
 		"name": "Courtisane",
 		"unitType": "Civilian",
@@ -49,6 +52,9 @@
 			"Receive triple Gold from Barbarian encampments and pillaging Cities",
 			],
 	}, 
+
+//Great Person
+
 	{
 		"name": "Great Star",
 		"unitType": "Civilian",
@@ -59,5 +65,8 @@
 	    "Is part of Great Person group [Great Person]",
             "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
 		"movement": 2
-	}
+	},
+
+//military 
+
 ]
