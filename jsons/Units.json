@@ -1,5 +1,7 @@
 [
 
+//faire une nouvelle ressource pour créer les unités
+	
 //Courtisane 
 
 	{
@@ -80,7 +82,8 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Princesse sucube",
-		"uniques": ["[+20]% Strength <vs [Sword] units>","Only available <after build [Rue des plaisirs]>"],
+		"uniques": ["[+20]% Strength <vs [Sword] units>",
+			"Only available <if [Rue des plaisirs] is constructed>",],
 		"attackSound": "metalhit"
 	},
 
@@ -93,13 +96,12 @@
 		"strength": 10,
 		"cost": 120,
 		"requiredTech": "Steel"
-		"requiredResource": "Iron","Silk"
-"unique": [
-"Enemy City loses 1 Influence <if this unit kills a Civilian within 2 tiles",
-    "Deals bonus damage to Civilian units",
-"Ignores Zone of Control",
-"Invisible to others"
-],
+		"requiredResource": "Iron","Silk",
+		"unique": [
+    		"Deals bonus damage to Civilian units",
+		"Ignores Zone of Control",
+		"Invisible to others"
+		],
 		"attackSound": "metalhit"
 	},
 
@@ -113,7 +115,11 @@
 		"cost": 185,
 		"requiredTech": "Metallurgy",
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","Never appears as a Barbarian unit", "["[+20]% Strength <vs [Sword] units>","Only available <after build [Maison close]>"],
+		"uniques": ["Can move after attacking",
+			"Never appears as a Barbarian unit", 
+			"[+20]% Strength <vs [Sword] units>",
+			"Only available <if [Maison close] is constructed>",],
+		"upgradesTo": "Reine sucube",
 		"attackSound": "horse"
 	},
 
@@ -126,13 +132,53 @@
 		"cost": 225,
 		"requiredTech": "Rifling",
 		"unique": [
-"+20% Combat Strength when adjacent to Great People",
-"+1 Movement on Roads",
-"May enter foreign tiles without open borders"
-],
+		"+20% Combat Strength when adjacent to Great People",
+		"+1 Movement on Roads",
+		"May enter foreign tiles without open borders"
+		],
 		"attackSound": "shot"
 	},
 
 //moderne
+	{
+		"name": "Reine sucube",
+		"unitType": "Fighter",
+		"movement": 1,
+		"strength": 35,
+		"rangedStrength": 35,
+		"range": 5,
+		"interceptRange": 5,
+		"cost": 325,
+		"requiredTech": "Flight",
+		"requiredResource": "Oil",
+		"uniques": ["[50]% chance to intercept air attacks", 
+			"[+150]% Strength <vs [Bomber] units>", 
+			"[+20]% Strength <vs [Gunpowder] units>",
+			"May move after attacking",
+			"Only available <if [Maison close] is constructed>",]
+		"attackSound": "machinegun"
+	},
 //atomique
+	{
+		"name": "Bombe sexuelle",
+		"unitType": "Atomic Bomber",
+		"movement": 1,
+		"strength": 150,
+		"rangedStrength": 150,
+		"range": 10,
+		"cost": 600,
+		"requiredTech": "Nuclear Fission",
+		"requiredResource": "Uranium",
+		"promotions" : ["Evasion"],
+		"uniques": ["Nuclear weapon of Strength [1]", 
+			"Only available <if [Manhattan Project] is constructed>", 
+			"Self-destructs when attacking",
+			"Blast radius [1]",
+			"Target City gains -2 Happiness for 10 turns",
+			"Target City loses -20 Loyalty",
+			]
+		"attackSound": "nuke"
+		// Plane rather than a missile - can be based in city or Carrier only.
+		// Can be intercepted, but must die for it not to take effect.
+	},
 ]
